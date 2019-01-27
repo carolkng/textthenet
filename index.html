@@ -16,11 +16,46 @@
 			max-width:none
 		}
 	}
+	 body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-color: black;
+
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+	
 </style>
 </head><body>
 <article>
-<h1>Text the Net</h1>
-<p>Text <strong>HELP</strong> to 2048185840 to begin!</p>
+ <div class="hero-image">
+  <div class="hero-text">
+    <h1>Text the Net</h1>
+    <p>Text <strong>HELP</strong> to 2048185840 to begin!</p>
+  </div>
+</div> 
+	
+	<p>Text <strong>HELP</strong> to 2048185840 to begin!</p>
 	<h3>I already have internet access on my phone. Why does this matter? </h3>
 	<p> Over <a>5 billion people</a> are connected to a mobile network, but only <a>about 4 billion</a> are actually connected to the Internet. TextTheNet aims to bridge the gap for those 1 billion mobile users and empower them with access to the vast swaths of information on the Internet.
 <h3 id="what-can-i-do-with-this-">What can I do with this?</h3>
