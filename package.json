@@ -1,0 +1,26 @@
+{
+  "name": "carolkng/nwhacks-bessagebird",
+  "version": "0.0.3",
+  "description": "",
+  "author": "carolkng",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "lib": "^3.0.1",
+    "got": "^9.6.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "carolkng/nwhacks-bessagebird",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    },
+    "source": "@messagebird/messagehub/0.1.6"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
